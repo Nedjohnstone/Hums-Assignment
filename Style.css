@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+body{
+    background:#f4f7ff;
+    color:#111;
+}
+
+/* HEADER */
+header{
+    background:#2563eb;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+.logo{
+    width:120px;
+}
+
+/* NAV */
+nav{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:15px;
+    background:white;
+}
+
+nav a{
+    text-decoration:none;
+    color:#333;
+    font-weight:bold;
+}
+
+button{
+    padding:8px 12px;
+    border:none;
+    background:#2563eb;
+    color:white;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+/* HERO */
+.hero{
+    text-align:center;
+    padding:60px;
+}
+
+/* CHAT */
+.ai-chat{
+    max-width:800px;
+    margin:40px auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+}
+
+.chat-messages{
+    height:250px;
+    overflow-y:auto;
+    background:#f9f9f9;
+    padding:10px;
+    border-radius:8px;
+}
+
+.user-message{
+    text-align:right;
+    margin:5px;
+    background:#dbeafe;
+    padding:8px;
+    border-radius:6px;
+}
+
+.bot-message{
+    text-align:left;
+    margin:5px;
+    background:#2563eb;
+    color:white;
+    padding:8px;
+    border-radius:6px;
+}
+
+/* SECTIONS */
+.content-section{
+    text-align:center;
+    padding:50px;
+}
+
+.resource-box,
+.tip-box{
+    background:white;
+    margin:10px auto;
+    padding:15px;
+    max-width:500px;
+    border-radius:8px;
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:20px;
+    background:#111;
+    color:white;
+}
+
+/* DARK MODE */
+body.dark-mode{
+    background:#0f172a;
+    color:white;
+}
+
+body.dark-mode nav{
+    background:#1e293b;
+}
+
+body.dark-mode nav a{
+    color:white;
+}
+
+body.dark-mode .ai-chat,
+body.dark-mode .resource-box,
+body.dark-mode .tip-box{
+    background:#1e293b;
+    color:white;
+}
+
+body.dark-mode .chat-messages{
+    background:#0b1220;
+}
+.advertisements{
+    text-align:center;
+    padding:20px 10px;
+}
+
+.ad-image{
+    width:100%;
+    max-width:600px;   /* smaller than before */
+    max-height:350px;  /* prevents huge ads */
+    object-fit:cover;
+
+    display:block;
+    margin:0 auto;
+
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.2);
+}
+
+#math-link{
+    text-decoration: none;
+    color:inherit;
+}

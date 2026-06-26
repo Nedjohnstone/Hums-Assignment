@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Buddy</title>
+
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+<header>
+    <img src="Logo.jpg" alt="Study Buddy Logo" class="logo">
+    <h1>Study Buddy</h1>
+    <p>Learn Smarter. Achieve More.</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#ai-chat">Chat</a>
+    <a href="#resources">Resources</a>
+    <a href="#studytips">Study Tips</a>
+
+    <!-- DARK MODE TOGGLE -->
+    <button id="themeToggle">🌙 Dark Mode</button>
+</nav>
+
+<section class="hero">
+    <h2>Welcome to Study Buddy</h2>
+    <p>Study Buddy helps students learn faster and smarter.</p>
+    <button id="learnMoreBtn">Learn More</button>
+</section>
+
+<section class="advertisements">
+    <img src="Ad.jpg" class="ad-image" alt="Ad">
+</section>
+
+<section id="ai-chat" class="ai-chat">
+    <h2>🤖 Study Buddy AI</h2>
+
+    <div id="chatMessages" class="chat-messages">
+        <div class="bot-message">Hi! Ask me a question 😊</div>
+    </div>
+
+    <input type="text" id="userInput" placeholder="Type your question...">
+    <button id="sendBtn">Send</button>
+</section>
+
+<section id="resources" class="content-section">
+    <h2>Study Resources</h2>
+
+    <div class="resource-box">
+        <a id="math-link" href="math.html"><h3>Math</h3></a>
+        <p>PEMDAS/BODMAS rules</p>
+    </div>
+
+    <div class="resource-box">
+        <h3>English</h3>
+        <p>TEEL structure</p>
+    </div>
+
+    <div class="resource-box">
+        <h3>Science</h3>
+        <p>Hypothesis, method, results, conclusion</p>
+    </div>
+</section>
+
+<section id="studytips" class="content-section">
+    <h2>Study Tips</h2>
+
+    <div class="tip-box">Study 25–30 mins at a time</div>
+    <div class="tip-box">Remove distractions</div>
+    <div class="tip-box">Sleep well</div>
+</section>
+
+<footer>
+    <p>© 2026 Study Buddy</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
